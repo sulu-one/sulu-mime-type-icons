@@ -1,7 +1,11 @@
 # SULU Icons
 [![NPM version][npm-image]][npm-url]
 [![SULU Package][sulu-package-image]][sulu-package-url]  
- 
+
+> SULU system icon collection
+
+So far based on http://fontawesome.io/
+
 ## Installation
 
 ```sh

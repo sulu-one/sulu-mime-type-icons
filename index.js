@@ -8,7 +8,7 @@ var FileIcons = function(client) {
 
 FileIcons.prototype.init = function(client) {
 	client.app.events.on("init-filesystem-item-icon", this.getFileSystemItemIcon);
-	client.app.loadCSS(require("path").join(__dirname, "font-awesome", "css", "font-awesome.min.css"));
+	client.app.loadCSS(require("path").join(__dirname, "node_modules","font-awesome", "css", "font-awesome.min.css"));
 	client.app.loadCSS(require("path").join(__dirname, "devicons", "devicon.min.css"));
 	client.app.loadCSS(require("path").join(__dirname, "devicons", "devicon-colors.css"));
 };

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sulu-one/sulu-mime-type-icons#readme",
   "dependencies": {
+    "devicons": "^1.8.0",
     "font-awesome": "^4.7.0"
   }
 }
